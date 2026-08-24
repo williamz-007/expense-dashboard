@@ -1,4 +1,4 @@
-import { ArrowRight, TrendingDown } from 'lucide-react'
+import { ArrowRight, TrendingUp } from 'lucide-react'
 
 const categories = [
   { name: 'Housing', amount: '$650', width: '51%', color: 'bg-category-housing' },
@@ -12,7 +12,6 @@ export default function Page() {
       <section className="mx-auto flex min-h-[calc(100vh-6rem)] max-w-3xl flex-col gap-5 sm:min-h-[calc(100vh-8rem)]">
         <header className="flex items-center justify-between rounded-lg border border-border bg-card px-5 py-4 sm:px-6">
           <div className="flex items-center gap-3">
-            <span className="h-2 w-2 rounded-full bg-foreground" aria-hidden="true" />
             <div>
               <h1 className="text-base font-semibold tracking-[-0.02em]">Monthly spending</h1>
               <p className="mt-1 text-xs text-muted-foreground">Personal overview</p>
@@ -26,8 +25,8 @@ export default function Page() {
             <p id="total-spending" className="mb-4 text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">Total spent</p>
             <p className="font-mono text-[clamp(3rem,9vw,5.5rem)] font-medium leading-none tracking-[-0.07em] text-foreground">$1,284.50</p>
             <div className="mt-6 inline-flex items-center gap-2 rounded-full bg-positive/12 px-3 py-1.5 text-sm text-positive">
-              <TrendingDown className="size-4" strokeWidth={2} aria-hidden="true" />
-              <span className="font-mono text-xs font-medium">12% less</span>
+              <TrendingUp className="size-4" strokeWidth={2} aria-hidden="true" />
+              <span className="font-mono text-xs font-medium">+12% more</span>
               <span className="text-xs text-positive/80">than last month</span>
             </div>
           </section>
