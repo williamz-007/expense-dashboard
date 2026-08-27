@@ -23,7 +23,7 @@ export default function Page() {
         <div className="flex flex-1 flex-col justify-center gap-5">
           <section aria-labelledby="total-spending" className="rounded-lg border border-border bg-card p-6 sm:p-8">
             <p id="total-spending" className="mb-4 text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">Total spent</p>
-            <p className="font-mono text-[clamp(3rem,9vw,5.5rem)] font-medium leading-none tracking-[-0.07em] text-foreground">$1,284.50</p>
+            <p className="font-mono text-[clamp(3rem,9vw,5.5rem)] font-medium leading-none tracking-[-0.07em] text-foreground">$1,500.00</p>
             <div className="mt-6 inline-flex items-center gap-2 rounded-full bg-positive/12 px-3 py-1.5 text-sm text-positive">
               <TrendingUp className="size-4" strokeWidth={2} aria-hidden="true" />
               <span className="font-mono text-xs font-medium">+12% more</span>
